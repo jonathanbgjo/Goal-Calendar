@@ -14,3 +14,9 @@ python -m http.server 8000
 
 The goal and completed days are stored in browser local storage, separately for
 each year. No account or backend is required.
+
+## Deploy to Vercel
+
+Import `jonathanbgjo/Goal-Calendar` as a new project in Vercel. Use the `Other`
+framework preset, with no build command or output directory. Vercel serves the
+static files directly, and `vercel.json` routes the domain root to the calendar.
