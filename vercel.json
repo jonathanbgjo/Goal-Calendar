@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/goal-calendar.html"
+      "destination": "/goal-calendar"
     }
   ]
 }
